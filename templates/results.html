@@ -21,8 +21,8 @@
         <p>
         {{ render_field(form.search) }}
       </p></dl>
-      <p>{{render_field(form.top)}} <button type="button" class="btn btn-primary common-page-submit-btn">
-    </p></form>
+      <p>{{render_field(form.top)}}</p><button type="button submit" value="Search" class="btn btn-primary common-page-submit-btn"></button>
+</form>
 <h3>Search results</h3>
 <div id="results-page-table-container">
   {% for table in tables %}
